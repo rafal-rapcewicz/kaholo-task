@@ -49,7 +49,7 @@ describe('promise', () => {
         });
     });
 
-    fdescribe('catch', () => {
+    describe('catch', () => {
         it('should handle reject value', () => {
             const expectedErrorMessage = 'ErrorMessage';
             let error: Error;
